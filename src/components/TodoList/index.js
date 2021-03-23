@@ -28,8 +28,7 @@ export default function TodoList() {
 
   const addTodo = (task, description) => dispatch(addTask(task, description));
   const excludeTodo = (id) => dispatch(excludeTask(id));
-  const editTodo = (task, id, description) =>
-    dispatch(editTask(task, id, description));
+  const editTodo = (task, id, description) => dispatch(editTask(task, id, description));
   const confirmTodo = (done, id) => dispatch(confirmTask(done, id));
 
   function saveTodo() {
