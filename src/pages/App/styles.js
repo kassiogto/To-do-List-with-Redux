@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
@@ -7,7 +7,7 @@ export const Container = styled.div`
   height: 90%;
   margin-right: auto;
   margin-left: auto;
-`;
+`
 
 export const ContentTodoRegister = styled.div`
   display: flex;
@@ -23,7 +23,7 @@ export const ContentTodoRegister = styled.div`
   button:hover {
     background-color: var(--color-primary-lighter);
   }
-`;
+`
 
 export const TitleTodo = styled.h3`
   font-size: 23px;
@@ -31,19 +31,19 @@ export const TitleTodo = styled.h3`
   color: var(--color-text-title);
   font-weight: 500;
   line-height: 1.2;
-`;
+`
 
 export const SubTitleTodo = styled.p`
   font-size: 18px;
   color: var(--color-text-title);
   margin-block-start: 1rem;
   margin-block-end: 0.8rem;
-`;
+`
 
 export const ListTodo = styled.div`
   width: 100%;
   height: 100%;
-`;
+`
 
 export const InputTodo = styled.input`
   width: 50%;
@@ -54,7 +54,7 @@ export const InputTodo = styled.input`
   border: 1px solid var(--color-text-complement);
   border-radius: 5px;
   color: var(--color-text-title);
-`;
+`
 
 export const InputDescription = styled.textarea`
   width: 50%;
@@ -65,7 +65,7 @@ export const InputDescription = styled.textarea`
   border-radius: 5px;
   border: 1px solid var(--color-text-complement);
   color: var(--color-text-title);
-`;
+`
 
 export const ButtonAddTask = styled.button`
   padding: 10px 40px;
@@ -73,11 +73,11 @@ export const ButtonAddTask = styled.button`
   border: 1px solid var(--color-text-complement);
   border-radius: 5px;
   cursor: pointer;
-`;
+`
 
-export const FormFielderror = styled.span`
+export const FormFieldError = styled.span`
   position: absolute;
   top: 182px;
   font-size: 12px;
   color: var(--color-text-error);
-`;
+`

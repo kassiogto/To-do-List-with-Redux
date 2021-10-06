@@ -45,9 +45,9 @@ export default function TodoItem({
         <Item>
           <div onClick={() => confirmTask(done, taskId)}>
             {done ? (
-              <i class="far fa-calendar-check"></i>
+              <i className="far fa-calendar-check"></i>
             ) : (
-              <i class="far fa-calendar-times"></i>
+              <i className="far fa-calendar-times"></i>
             )}
           </div>
           <ContentTask>
@@ -56,10 +56,10 @@ export default function TodoItem({
           </ContentTask>
           <ContentButton>
             <ButtonEdit onClick={() => setToggleEdit(!toggleEdit)}>
-              <i class="fas fa-edit"></i>
+              <i className="fas fa-edit"></i>
             </ButtonEdit>
             <ButtonExclude onClick={() => removeTask(taskId)}>
-              <i class="far fa-trash-alt"></i>
+              <i className="far fa-trash-alt"></i>
             </ButtonExclude>
           </ContentButton>
         </Item>

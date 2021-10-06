@@ -1,5 +1,8 @@
+import { createGlobalStyle } from 'styled-components'
+
+export default createGlobalStyle`
 :root {
-  --color-background: #F0F0F7;
+  --color-background: #f0f0f7;
   --color-box-footer: #fafafc;
   --color-primary-lighter: #9871f5;
   --color-text-title: #32264d;
@@ -9,11 +12,11 @@
 }
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  outline: 0;
 }
-
 
 html,
 body,
@@ -35,7 +38,10 @@ body,
 input,
 button,
 textarea {
-  font: 500 1.6rem Poppins;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
+  font-size: 500 1.6rem;
 }
 
 @media (min-width: 700px) {
@@ -49,3 +55,4 @@ input:focus,
 button:focus {
   outline: none;
 }
+`
