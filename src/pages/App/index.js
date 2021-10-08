@@ -6,7 +6,7 @@ import {
   excludeTask,
   editTask,
   confirmTask,
-} from '../../store/action/todoListAction'
+} from '../../store/action/ducks/actions'
 import { useValidation } from '../../utils/validations'
 import TodoItem from '../../components/TodoItem'
 

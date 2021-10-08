@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './pages/App'
-import { Store } from './store/store'
+import { Store } from './store'
 import { Provider } from 'react-redux'
 import GlobalStyles from 'styles/GlobalStyles'
 
